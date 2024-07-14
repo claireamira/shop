@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../../NewProject/src/assets/Components/NavBar";
+import Navbar from './Components/Navbar';
 import { useLocation } from 'react-router-dom';
 
 const ProductContent = () => {
@@ -9,7 +9,7 @@ const ProductContent = () => {
 
     return (
         <>
-            <Navbar />
+            <Navbar/>
             <div className="productContentCard">
                 <img src={details.images[0]} style={{width: "400px", height: "auto"}} className="card-img-top" alt="..." />
                 <div className="card-body">
