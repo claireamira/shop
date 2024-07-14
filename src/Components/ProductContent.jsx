@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from '../../../src/Components/Navbar';
+import NavBar from "./Navbar";
 import { useLocation } from 'react-router-dom';
 
 const ProductContent = () => {
