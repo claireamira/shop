@@ -11,7 +11,7 @@ const ProductContent = () => {
         <>
             <Navbar />
             <div className="productContentCard">
-                <img src={details.images[0]} className="card-img-top" alt="..." />
+                <img src={details.images[0]} style={{width: "400px", height: "auto"}} className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{details.title}</h5>
                     <h5>$ {details.price}</h5>
